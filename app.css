@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    src: url('../project_web_site/assets/fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-weight: 700;
+    src: url('../project_web_site/assets/fonts/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Jost";
+    font-weight: 400;
+    src: url('../project_web_site/assets/fonts/Jost/Jost-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Jost";
+    font-weight: 700;
+    src: url('../project_web_site/assets/fonts/Jost/Jost-Bold.ttf');
+}
+
+html {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;  
+}
+
+body {
+    width: 80%;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px solid;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+
+.nav-container {
+    width: 50%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color:#686565
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;  
+    color: #0E0578;
+}
+
+.main-body {
+    display: flex;
+    justify-content: center;
+    margin-top: 201px;
+}
+
+.main-body-text-container {
+
+}
+
+.main-body-text-container-subtitle {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;  
+    color: #2000E7;
+}
+
+.main-body-text-container-title {
+    width: 447px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;  
+    color: #2000E7;
+}
+
+.main-body-text-container-title-word {
+    color:#F2BD00;
+}
+
+.main-body-text-container-text {
+    width: 616px;
+    color: #383838;
+}
+
+.img-container {
+    margin-left: 79px;
+}
+
+.main-body-button-1 {
+    width: 246px;
+    height: 72px;
+    background-color:#2000E7;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;  
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 11px 21px 15px 6px #000000;
+}
+
+.main-body-button-2 {
+    width: 246px;
+    height: 72px;
+    background-color:#2000E7 4%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;  
+    color: #2000E7;
+    border-width: 2px;
+    border-color: #2000E7;
+    border-radius: 8px;
+    margin-left: 78px;
+}
