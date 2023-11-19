@@ -30,7 +30,11 @@ html {
 }
 
 body {
-    width: 80%;
+    height: 100vh;
+}
+
+section {
+    width: 100%;
     height: 100vh;
 }
 
@@ -40,6 +44,10 @@ a {
 
 a:hover {
     border-bottom: 1px solid;
+}
+
+li {
+    list-style: none;
 }
 
 .header-container {
@@ -114,7 +122,7 @@ a:hover {
     color: #ffffff;
     border: none;
     border-radius: 8px;
-    box-shadow: 11px 21px 15px 6px #000000;
+    box-shadow: 11px 21px 15px 6px #575656;
 }
 
 .main-body-button-2 {
@@ -129,4 +137,237 @@ a:hover {
     border-color: #2000E7;
     border-radius: 8px;
     margin-left: 78px;
+    box-shadow: 11px 21px 15px 6px #575656;
 }
+
+.about {
+    display: flex;
+    justify-content: left;
+    background-image: url(assets/img/1\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.about-text-container {
+    margin-left: 46px;
+    margin-top: 292px;
+}
+
+.about-text-container-title {
+    font-weight: 700;
+    size: 48px;
+    line-height: 72px;
+    color: #2000E7;
+}
+
+.about-text-container-text {
+    font-weight: 400;
+    size: 24px;
+    line-height: 36px;
+    color: #000000;
+    width: 415px;
+}
+
+.about-button-1 {
+    width: 246px;
+    height: 72px;
+    background-color:#2000E7;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;  
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 11px 21px 15px 6px #575656;
+}
+
+.my-projects {
+    background-color: #FFD69620;
+}
+
+.my-projects-title {
+    font-weight: 700;
+    size: 48px;
+    line-height: 72px;
+    color: #3B1FEA;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+.my-projects-text {
+    font-weight: 400;
+    size: 24px;
+    line-height: 36px;
+    color: #000000;
+    text-align: center;
+}
+
+.PortFolio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-projects-example-1 {
+    flex-direction: column;
+    list-style: none;
+}
+
+.my-projects-example-2 {
+    flex-direction: column;
+    list-style: none;
+}
+
+.my-projects-example-3 {
+    flex-direction: column;
+    list-style: none;
+}
+
+.contact {
+    height: 100%;
+}
+
+.contact-header {
+    font-weight: 700;
+    size: 48px;
+    line-height: 72px;
+    color: #3B1FEA;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+.contact-header-text {
+    font-weight: 400;
+    size: 24px;
+    line-height: 36px;
+    color: #000000;
+    text-align: center;
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    z-index: 200;
+    color: #000000;
+}
+
+input.contact-form {
+    width: 653px;
+    padding: 12px 20px;
+    border: none;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 81px;
+    box-shadow: 11px 21px 5px #00000020;
+    color: #000000;
+}
+
+input.contact-form-msg {
+    width: 653px;
+    padding: 12px 20px;
+    border: none;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 81px;
+    box-shadow: 11px 21px 5px #00000020;
+    color: #000000;
+}
+
+input.contact-button {
+    width: 327px;
+    padding: 12px 20px;
+    border: none;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 32px;
+    box-shadow: 11px 21px 5px #00000020;
+    margin-left: 164px;
+}
+
+.contact-img {
+    z-index: 100;
+    margin-left: 10px;
+    width: 35%;
+    height: 35%;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    background-color: #FFD69620;
+    margin-top: 50px;
+}
+
+.end-logo {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.35em;
+    color: #0E0578;
+}
+
+.subscribe {
+    color: #ffffff;
+}
+
+input.subscribe-form {
+    width: 323px;
+    padding: 12px 20px;
+    border: none;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 81px;
+    background-color: #000000;
+    border-radius: 16px;
+    position: relative;
+}
+
+input.subscribe-button {
+    width: 178px;
+    padding: 12px 20px;
+    border: none;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 81px;
+    background-color: #F965FC;
+    border-radius: 16px;
+    position: absolute;
+    z-index: 9;
+}
+
+.end-header {
+    font-family: "Jost";
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 44.8px;
+}
+
+hr {
+    color: #000000;
+}
+
+footer {
+    background-color: #FFD69620;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-container {
+    margin-left: 30px;
+}
+
+.footer-social-list {
+    align-items: stretch;
+}
+
+
+
+
+
