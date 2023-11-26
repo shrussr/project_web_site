@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-    border-bottom: 1px solid;
+    border-bottom: none;
 }
 
 li {
@@ -64,6 +64,9 @@ li {
     display: flex;
     justify-content: space-between;
     list-style: none;
+}
+
+.nav-item {
     color:#686565
 }
 
@@ -128,7 +131,6 @@ li {
 .main-body-button-2 {
     width: 246px;
     height: 72px;
-    background-color:#2000E7 4%;
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;  
@@ -155,14 +157,14 @@ li {
 
 .about-text-container-title {
     font-weight: 700;
-    size: 48px;
+    font-size: 48px;
     line-height: 72px;
     color: #2000E7;
 }
 
 .about-text-container-text {
     font-weight: 400;
-    size: 24px;
+    font-size: 24px;
     line-height: 36px;
     color: #000000;
     width: 415px;
@@ -187,7 +189,7 @@ li {
 
 .my-projects-title {
     font-weight: 700;
-    size: 48px;
+    font-size: 48px;
     line-height: 72px;
     color: #3B1FEA;
     text-align: center;
@@ -196,7 +198,7 @@ li {
 
 .my-projects-text {
     font-weight: 400;
-    size: 24px;
+    font-size: 24px;
     line-height: 36px;
     color: #000000;
     text-align: center;
@@ -228,7 +230,7 @@ li {
 
 .contact-header {
     font-weight: 700;
-    size: 48px;
+    font-size: 48px;
     line-height: 72px;
     color: #3B1FEA;
     text-align: center;
@@ -237,7 +239,7 @@ li {
 
 .contact-header-text {
     font-weight: 400;
-    size: 24px;
+    font-size: 24px;
     line-height: 36px;
     color: #000000;
     text-align: center;
@@ -311,10 +313,6 @@ input.contact-button {
     color: #0E0578;
 }
 
-.subscribe {
-    color: #ffffff;
-}
-
 input.subscribe-form {
     width: 323px;
     padding: 12px 20px;
@@ -325,7 +323,9 @@ input.subscribe-form {
     margin-bottom: 81px;
     background-color: #000000;
     border-radius: 16px;
-    position: relative;
+    position: absolute;
+    color: #ffffff;
+    z-index: 8;
 }
 
 input.subscribe-button {
@@ -336,10 +336,12 @@ input.subscribe-button {
     font-weight: 400;
     font-size: 32px;
     margin-bottom: 81px;
+    margin-left: 190px;
     background-color: #F965FC;
     border-radius: 16px;
     position: absolute;
     z-index: 9;
+    color: #ffffff;
 }
 
 .end-header {
